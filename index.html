@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌱 Agro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>🌱 Agro Sustentável</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#curiosidade">Curiosidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção: Sobre -->
+        <section id="sobre">
+            <h2>O que é Agro Sustentável? 🌾</h2>
+            <p>
+                O agro sustentável é uma forma de agricultura que respeita o meio ambiente 🌳,
+                utiliza os recursos naturais de forma consciente 💧 e produz alimentos saudáveis 🍎.
+                É importante para preservar o planeta e garantir um futuro melhor.
+            </p>
+        </section>
+
+        <!-- Seção: Benefícios -->
+        <section id="beneficios">
+            <h2>Benefícios 🌟</h2>
+            <ul>
+                <li>🌱 Preserva o solo e a água</li>
+                <li>🛡 Reduz o uso de produtos químicos</li>
+                <li>🐝 Promove a biodiversidade</li>
+                <li>🌍 Contribui para a sustentabilidade do planeta</li>
+            </ul>
+        </section>
+
+        <!-- Seção: Curiosidades com JavaScript -->
+        <section id="curiosidade">
+            <h2>Curiosidades 💡</h2>
+            <p id="fato">Clique no botão para ver uma curiosidade sobre agro sustentável!</p>
+            <button onclick="mostrarFato()">Mostrar Curiosidade 🤔</button>
+        </section>
+
+        <!-- Seção: Contato -->
+        <section id="contato">
+            <h2>Contato 📧</h2>
+            <p>Quer saber mais? Envie uma mensagem:</p>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="seu@email.com" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" placeholder="Escreva aqui..." required></textarea>
+                <button type="submit">Enviar ✉️</button>
+            </form>
+            <p id="resposta"></p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Projeto escolar de Agro Sustentável 🌱 &copy; 2026</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
